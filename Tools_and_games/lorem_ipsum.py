@@ -13,3 +13,25 @@ print(lorem.paragraphs(paragraph_length))
 # Generate random lorem ipsum words seperated with single space:
 words = 10
 print(lorem.words(words))
+
+#Generate a single sentence of lorem ipsum
+sentence = lorem.sentence()
+print(sentence)
+print("this is the character count of the sentence",len(sentence), '\n')
+
+#Generate specific number of words of lorem ipsum
+word_number = 12
+words = lorem.words(word_number)
+print(words)
+print("The number of words is",word_number,"with a character total of",len(words),'\n')
+
+#Generate a single paragraph of lorem ipsum
+paragraph = lorem.paragraph()
+print(paragraph)
+print("this is the character count of the paragraph",len(paragraph),'\n')
+
+#Generate multiple paragraphs of lorem ipsum
+paragraph_number = 2
+paragraphs = lorem.paragraphs(paragraph_number)
+print(paragraphs)
+print("this is the character count of the paragraphs",len(paragraphs), '\n')

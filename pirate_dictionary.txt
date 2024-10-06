@@ -1,7 +1,4 @@
-import lorem
-
-
-pirate_words = ("Shot", "wherry", "yawl", "galleon", "bucko", "main", "sheet", "brigantine", 
+"Shot", "wherry", "yawl", "galleon", "bucko", "main", "sheet", "brigantine", 
     "sloop", "gun", "heave", "down", "matey", "boom", "capstan", "pinnace", 
     "code", "of", "conduct", "tender", "stern", "ballast", "list", "red", 
     "ensign", "Corsair", "Cat", "o'nine", "tails", "cable", "Brethren", 
@@ -68,4 +65,4 @@ pirate_words = ("Shot", "wherry", "yawl", "galleon", "bucko", "main", "sheet", "
     "Pirate", "Round", "piracy", "jury", "mast", "mizzen", "yawl", "gunwalls", 
     "galleon", "Sea", "Legs", "booty", "man-of-war", "quarter", "tack", 
     "crimp", "league", "red", "ensign", "transom", "yo-ho-ho", "pressgang", 
-    "hempen")
+    "hempen"
