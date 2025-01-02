@@ -8,6 +8,6 @@ def get_random_string(length):
     result_str = ''.join(random.choice(letters) for i in range(length))
     print("Random string of length", length, "is:", result_str)
 
-get_random_string(35)
+get_random_string(500)
 #get_random_string(6)
 #get_random_string(4)
