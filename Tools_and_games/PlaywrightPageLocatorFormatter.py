@@ -6,22 +6,22 @@ while True:
 
     if whichLocator.upper() == "I":
         elementId = input("Enter the element ID: ")
-        locator = f"page.locator('#{elementId}')"
+        locator = f"await page.locator('#{elementId}')"
         print(f'\nCopy this locator and add to your Playwright test file:\n{locator}\n')
 
     elif whichLocator.upper() == "C":
         elementClass = input("Enter the element class: ")
-        locator = f"page.locator('.{elementClass}')"
+        locator = f"await page.locator('.{elementClass}')"
         print(f'\nCopy this locator and add to your Playwright test file:\n{locator}\n')
 
     elif whichLocator.upper() == "X":
         xpath = input("Enter the XPath: ")
-        locator = f"page.locator('xpath={xpath}')"
+        locator = f"await page.locator('xpath={xpath}')"
         print(f'\nCopy this locator and add to your Playwright test file:\n{locator}\n')
 
     elif whichLocator.upper() == "S":
         cssSelector = input("Enter the CSS selector: ")
-        locator = f"page.locator('css={cssSelector}')"
+        locator = f"await page.locator('css={cssSelector}')"
         print(f'\nCopy this locator and add to your Playwright test file:\n{locator}\n')
 
     else:
